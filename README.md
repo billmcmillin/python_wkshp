@@ -8,12 +8,12 @@ We're going to go through the basic concepts of Python programming, using the sc
 
 ####Setup
 We'll be using Python 2.7
-	* Should be installed in Mac and Linux
-	* For Windows, download from [Python.org/downloads](https://www.python.org/downloads/)
+* Should be installed in Mac and Linux
+* For Windows, download from [Python.org/downloads](https://www.python.org/downloads/)
 
 Test
-	* With text editor, open a file and type ```print 'hello world'``` and save it in your home directory as hello.py
-	* In the windows command prompt (cmd.exe) or Mac terminal, cd to your home directory and type ```python hello.py``` You should see the output of the program.
+* With text editor, open a file and type ```print 'hello world'``` and save it in your home directory as hello.py
+* In the windows command prompt (cmd.exe) or Mac terminal, cd to your home directory and type ```python hello.py``` You should see the output of the program.
 
 
 
