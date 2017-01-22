@@ -1,3 +1,4 @@
+#extract.py - script courtesy of James Lee, UC Digital Humanities/Digital Scholarship Center
 import os
 import sys
 import csv
@@ -34,8 +35,7 @@ with open('plant_genera_new.csv', 'rb') as plant_terms:
 				tool_terms.append(row)
 			for row in country_reader:
 				country_terms.append(row)
-
-			firstindex = text.find('Journal')
+firstindex = text.find('Journal')
 
 			def inner_extractor(start):
 				if start == -1:
