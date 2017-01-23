@@ -185,7 +185,8 @@ firstindex = text.find('Journal')
 				index = funding[1]
 
 				term_search_string = title_text + ' ' + abstract_text + ' ' +  keywords_text + ' ' + keywords_plus_text
-
+                                
+                                #re.sub performs regex substitution. You'll want to read up on regex for all kinds of text manipulation. 
 				term_search_string = re.sub(r'[^\w\s]',' ',term_search_string) 
 				#print term_search_string
 				focal_species =  plant_inner_term_extractor(term_search_string)
