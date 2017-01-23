@@ -16,4 +16,22 @@ Test
 * In the windows command prompt (cmd.exe) or Mac terminal, cd to your home directory and type ```python hello.py``` You should see the output of the program.
 
 
+####Concepts
 
+#####Strings
+* length 
+* find
+* concatenate
+* indexes
+
+#####Variables
+* assigning
+* passing to functions
+
+#####File I/O
+* readers & writers
+* sys.argv
+ 
+#####Functions
+* parameters
+* return value
