@@ -59,12 +59,25 @@ re.sub("a", "b", "I'm replacing all my a's with b's")
 my_variable = "some string"
 #>> "some string"
 ```
-* passing to functions
 
 ##File I/O
 * readers & writers
 * sys.argv
  
 ##Functions
-* parameters
+* passing variables to functions as parameters
 * return value
+```python
+def chop(i):
+  for letter in i:
+    print letter
+  return 'yeah!'
+var = "hell"
+chop(var)
+#>>
+ h
+ e
+ l
+ l
+ "yeah!"
+```
