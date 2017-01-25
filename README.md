@@ -26,8 +26,9 @@ len("Let's find the length of this string")
 * find
 ```python
 "Let's find a substring!".find("sub")
->> 13
+#>> 13
 # Returns '-1' if term not found
+
 "Let's find a substring!".find("apple")
 #>> -1
 ```
@@ -40,6 +41,7 @@ len("Let's find the length of this string")
 ```python
 "Let's find a substring!".find("sub")
 #>> 13
+
 # Returns ERROR if term not found
 "Let's find a substring!".find("apple")
 #>> Traceback (most recent call last):
